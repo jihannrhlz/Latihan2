@@ -1,36 +1,69 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding 35px; 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.nav ul li a {
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
 h1 {
-    font-weight: 700;
-    font-size: 45px;
-    margin: 0 0 16px 0;
+    font-family: sans-serif;
 }
 a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
 }
 p {
-    color:black;
+    color: grey;
     margin: 0 0 16px 0;
-    font-size: 20px;
+    font-size: 15px;
 }
 section {
     padding: 64px 128px;
 }
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 5;
 }
-btn {
-    background-color: pink;
-    color: white;
-    padding: 8px 24px;
+header h1 {
+    margin: 0;
+}
+.btn {
+    background-color: skyblue;
+    padding: 8px;
+    border: 2px solid skyblue;
+    color: black;
+    font-family: sans-serif;
 }
 .btn-alt {
-    background-color: pink;
+    background-color: white;
     color: black;
     padding: 8px;
-    border: 2px solid black;
+    border: 2px solid skyblue;
     margin-right: 16px;
+    font-family: sans-serif;
 }
-nav > a {
-    margin-left: 12px;
-}
-
