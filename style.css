@@ -53,10 +53,11 @@ section {
 .desc {
     font-size: 30px;
     color: grey;
+    font-family: sans-serif;
 }
 
-#landing img {
-    width: 48%;
+#landing img, #About img {
+    width: 47%;
 }
 
 .btn-container {
@@ -64,7 +65,7 @@ section {
 }
 
 .btn {
-    padding: 0.3em 1.2em;
+    padding: 0.3em 1.4em;
     font-size: 1.3em;
     border: skyblue solid 2px;
     background-color: skyblue;
@@ -77,4 +78,44 @@ section {
     background-color: white;
     color: black;
     margin-right: 10px;
+}
+
+#About{
+    display: flex;
+}
+
+.about-desc{
+    box-sizing: border-box;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.about-desc .title{
+    margin: 20px 0;
+}
+
+.about-desc .desc{
+    font-size: 28px;
+}
+#About table{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.data{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.line{
+    position: relative;
+    width: 50px;
+    background-color: skyblue;
+    height: 10px;
+    margin: 15px auto;
 }
