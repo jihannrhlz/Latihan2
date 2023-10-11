@@ -51,7 +51,7 @@ section {
 }
 
 .desc {
-    font-size: 30px;
+    font-size: 27px;
     color: grey;
     font-family: sans-serif;
 }
@@ -144,7 +144,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
@@ -158,4 +158,100 @@ section {
 .card-desc h3 {
     margin: 12px 0;
     font-family: 'Ubuntu', sans-serif;
+}
+
+#Contact p.desc{
+    margin: 25px 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.form{
+    border: skyblue solid 1px;
+    width: 48%;
+}
+
+form h2.title {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+form label{
+    padding: 5px 0;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-box {
+    padding: 0 10px 20px 30px;
+}
+
+.form input {
+    border-style: none;
+    border-bottom: #000 solid 1px;
+    height: 30px;
+    width: 231px;
+    font-size: 18px;
+    padding: 3px 7px;
+}
+
+#message{
+    width: 107%;
+}
+
+#submit {
+    margin-left: 5%;
+    width: 90.5%;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 0;
+}
+
+.maps {
+    width: 40%
+}
+
+footer {
+    background-color: skyblue;
+    padding: 60px 130px;
+    display: flex;
+    justify-content: space-between;
+    color: white
+}
+
+.footer-text h2 {
+    font-family: 'Ubuntu', sans-serif; ;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon a {
+    padding: 10px;
 }
